@@ -26,7 +26,7 @@ mod stmt;
 mod typescript;
 mod util;
 
-/// When error ocurred, error is emiited and parser returnes Err(()).
+/// When error ocurred, error is emitted and parser returnes Err(()).
 pub type PResult<'a, T> = Result<T, DiagnosticBuilder<'a>>;
 
 /// EcmaScript parser.
